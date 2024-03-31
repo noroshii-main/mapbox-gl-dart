@@ -39,14 +39,30 @@ void main() {
 }
 ```
 
+## Contribution
+
+Install requirements
+
+```bash
+dart pub get
+```
+
 ## Examples
 
 You can find many examples in the [example](example) folder.
 
 ## Run example
 
-`pub global activate webdev`
+Activate webdev
 
-`webdev serve example:8081`
+```bash
+dart pub global activate webdev
+```
 
-Open browser to `localhost:8081`
+Serve examples
+
+```bash
+webdev serve example:8081
+```
+
+Open browser to http://localhost:8081
